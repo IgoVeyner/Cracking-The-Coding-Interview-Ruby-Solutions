@@ -1,6 +1,6 @@
 # Reference https://www.rubyguides.com/2017/08/ruby-linked-list/
 class Node
-  attr_accesor :next
+  attr_accessor :next
   attr_reader :value
 
   def initialize(value)
